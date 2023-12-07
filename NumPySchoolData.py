@@ -7,7 +7,6 @@ def scientificToStandard(str):
 
     return significand * (10 ** order_of_magnitude)
 
-
 path = '/Users/akulsolanki/Downloads/Sale_Prices_City.csv'
 data = np.genfromtxt(path, dtype = str, delimiter= ',')
 
