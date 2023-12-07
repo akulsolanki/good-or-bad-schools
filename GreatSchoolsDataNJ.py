@@ -11,7 +11,7 @@ from pandas.io.html import read_html
 #nj_cities_table = data[0]
 #nj_cities = nj_cities_table['Municipality']
 
-path = '/Users/rishabsolanki09@gmail.com/Downloads/Sale_Prices_City.csv'
+path = '/Users/Downloads/Sale_Prices_City.csv'
 all_cities = pd.read_csv(path)
 nj_data = pd.DataFrame()
 nj_cities = pd.Series()
